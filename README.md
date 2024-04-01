@@ -1,18 +1,24 @@
 # Topic-Modeling Clustering with KMeans
 This repository contains a Python script for clustering articles using the KMeans algorithm. 
+
 The script preprocesses textual data, applies TF-IDF vectorization, performs KMeans clustering, and visualizes the clusters using PCA.
 
 Dependencies
 
 Python 3.x
+
 nltk
+
 pandas
+
 numpy
+
 scikit-learn
+
 matplotlib
 
 
-Usage
+# Usage
 Clone the repository to your local machine.
 
 
@@ -37,6 +43,7 @@ You can customize the preprocessing steps, such as adding or removing stopwords,
 
 # Output
 The script will produce a plot showing the squared-sum-error against the number of clusters, aiding in determining the optimal K value.
+
 Additionally, it generates a PCA plot visualizing the clusters formed by KMeans.
 
 # Dataset
