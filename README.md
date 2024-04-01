@@ -3,7 +3,7 @@ This repository contains a Python script for clustering articles using the KMean
 
 The script preprocesses textual data, applies TF-IDF vectorization, performs KMeans clustering, and visualizes the clusters using PCA.
 
-Dependencies
+# Dependencies
 
 Python 3.x
 
